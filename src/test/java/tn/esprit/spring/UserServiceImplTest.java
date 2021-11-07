@@ -24,12 +24,12 @@ public class UserServiceImplTest {
 	@Autowired
 	IUserService us;
 	
-	@Test
-	@Order(1)
-	public void testRetrieveAllUsers() {
-		List<User> listUsers = us.retrieveAllUsers();
-		Assertions.assertEquals(0, listUsers.size());
-		}
+//	@Test
+//	@Order(1)
+//	public void testRetrieveAllUsers() {
+//		List<User> listUsers = us.retrieveAllUsers();
+//		Assertions.assertEquals(0, listUsers.size());
+//		}
 	
 	@Test
 	@Order(2)

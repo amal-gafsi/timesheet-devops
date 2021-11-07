@@ -22,12 +22,12 @@ public class EmployeServiceImplTest {
 	@Autowired
 	IEmployeService us;
 	
-	@Test
-	@Order(1)
-	public void testRetrieveAllEmployes() {
-		List<Employe> listEmployes = us.retrieveAllEmployes();
-		Assertions.assertEquals(0, listEmployes.size());
-		}
+//	@Test
+//	@Order(1)
+//	public void testRetrieveAllEmployes() {
+//		List<Employe> listEmployes = us.retrieveAllEmployes();
+//		Assertions.assertEquals(0, listEmployes.size());
+//		}
 	
 	@Test
 	@Order(2)
